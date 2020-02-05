@@ -1,0 +1,39 @@
+
+
+c:\>dotnet --info
+
+c:\>dotnet -h
+
+c:\>dotnet new -h (help for new commnad)
+
+c:\>dotnet new webapi -n "NameOfProject"  | Dotnet new webapi –n (name) DatingApp.API
+
+Create Folder DatingApp
+
+c:\>CD Project Folder> Code .
+
+// to hide bin & obj folder
+Code -> Prefernces -> Settings -> Exclude -> files -> Add Pattern **/obj -> ok
+
+dotnet run -> Enter
+
+LaunchSetting.json -> remove https url 
+startup.cs -> usehttpRedirection need to comment
+
+Ctrl + C -> Stop application
+
+dotnet run --> http://localhost:5000/[Controller Name]
+
+dotnet watch run -->
+
+dotnet tool install --global dotnet-ef  || dotnet tool install --global dotnet-ef --version 3.0.0
+dotnet ef -h
+
+dotnet ef migrations -h 
+dotnet ef migrations add InitialCreate 
+Error (Microsoft.EntityFrameworkCore.Design add as NuGet Package)
+dotnet ef database update
+---------------------------------------------------------------
+
+
+

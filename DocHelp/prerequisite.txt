@@ -1,0 +1,35 @@
+
+The Main Protagonists
+
+Microsoft ASP.net CORE v2.2 (dotnet core sdk)
+EntityFramework v2.2
+Angularv8
+
+Supporting Cast
+
+HTML5
+node.js
+git
+Bootstrap
+CSS3
+SqlServer
+
+Tools
+
+VS Code or Visual Studio 2017
+
+-----------------------------------------------------------
+
+.NET Core SDk 3.0
+Postmen
+SQLite
+
+-------------- extension in VS Code ----------------------
+
+C# by OmniSharp for.NETCore
+C# Extensions by jchannon
+NuGet Package Manager
+
+----------------------- Adhoc ----------------------------
+
+swagger UI by pramod

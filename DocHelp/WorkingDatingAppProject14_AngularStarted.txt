@@ -1,0 +1,82 @@
+
+npm install -g @angular/cli 
+
+ng new DatingApp-SPA
+Routing - N
+StyleSheet - CSS
+
+VS Code Extensions for Angular
+
+Angular Snippets (Version 8)
+johnpapa
+
+Angular Files | Alexander
+
+Angular Language Service | Angular
+
+Auto Rename Tag | Jun Han
+
+Bracket Pair Colorizer 2 | CoenraadS
+
+Debugger for Chrome | Microsoft
+
+Material Icon Theme | Philipp
+
+Prettier - Code formatter | publisher:"Esben Petersen"
+
+TSLint - Microsoft
+
+angular2-switcher | infinity1207
+
+
+--------------------------------------------------------------------------------
+
+CORS :-
+
+ public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddDbContextPool<DataContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("DevConnectionString")));
+            services.AddControllers();
+            services.AddCors();
+        }
+
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+
+           // app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+           // Area for adding CORS
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+        }
+
+
+
+
+---------------------------- Boostrap FontAwesome added -----------------------------------
+
+npm install bootstrap font-awesome
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+
+Added in Style.css
+
+----------------------------------------------------------------------------------------------
+
+
+
+
+
