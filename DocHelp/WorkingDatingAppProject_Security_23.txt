@@ -1,0 +1,22 @@
+Store Password in DB -
+Hashing a password
+Hashing and Salting a password
+
+---------------------------------------------------------------
+
+Repository Pattern -
+
+Minimizes duplicate query logic
+Decouples application from persistence framework
+All DB queries in the same place
+Promotes testability
+
+
+----------------------------------------------------------------
+
+Nuget Package for JWT
+Microsoft.IdentityModel | Tokens
+System.IdentityModel.Tokens.JWT
+
+Microsoft.AspNetCore.Authentication | Jwt Bearer
+
