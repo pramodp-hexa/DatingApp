@@ -16,7 +16,18 @@ Promotes testability
 
 Nuget Package for JWT
 Microsoft.IdentityModel | Tokens
+
 System.IdentityModel.Tokens.JWT
 
 Microsoft.AspNetCore.Authentication | Jwt Bearer
+
+-----------------------------------------------------------------
+
+appSettings.json add to gitIgnore
+
+git rm appsettings.json --cached
+
+sage storage of app secrets in development in ASP.NET Core
+
+dotnet users-secrets
 
