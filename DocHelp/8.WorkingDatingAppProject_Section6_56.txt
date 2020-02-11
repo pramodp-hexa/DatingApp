@@ -1,0 +1,5 @@
+
+
+npm install alertifyjs
+
+npm install -g npm -- for update new packages
